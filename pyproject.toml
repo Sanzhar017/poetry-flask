@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "TESTING"
+version = "0.1.0"
+description = "Sanzhar017"
+authors = ["Sanzhar <tolendy017@gmail.com>"]
+readme = "README.md"
+packages = [{include = "TESTING"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
